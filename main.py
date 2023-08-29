@@ -54,5 +54,5 @@ while True:
         print('Sorted list: ', end='')
         print(list_of_num)
         break
-    except Exception as e:
+    except Exception:
         print('Invalid input')
